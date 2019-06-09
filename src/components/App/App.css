@@ -1,0 +1,9 @@
+body{
+  background-image: url(/assets/img/main-fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main{
+  padding: 10px 32px;
+}

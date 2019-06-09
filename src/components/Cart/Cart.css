@@ -1,0 +1,7 @@
+#cart p{
+    margin: 0;
+}
+
+#cart .card-body{
+    padding: 10px 20px;
+}

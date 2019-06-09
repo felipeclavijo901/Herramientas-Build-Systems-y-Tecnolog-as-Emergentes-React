@@ -1,0 +1,32 @@
+#menu{
+    margin-bottom: 15px;
+}
+#menu #navbarSupportedContent{
+    padding: 0 16px;
+}
+#menu a{
+    padding: 10px 16px !important;
+    transition: .5s all;
+}
+#menu a span:not(.badge){
+    display: none;
+}
+#menu a:hover{
+    background-color: #ededed !important;
+    transition: .5s all;
+}
+#menu a:hover > i{
+    transform: scale(1.3);
+    transition: .5s all;
+}
+#menu a:hover > span:not(.badge){
+    display: unset;
+}
+#menu .badge{
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 20px;
+    padding: 4px 6px;
+    transform: translateY(5px) translateX(-5px);
+    display: none;
+}
